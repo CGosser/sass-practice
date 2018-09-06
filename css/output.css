@@ -1,41 +1,44 @@
 .leftstuff {
   display: flex;
   align-items: center; }
+  .leftstuff btn {
+    float: right; }
 
 .topNavBar {
   border-bottom: 1px solid #e9e9e9;
   display: flex;
   flex-direction: row;
   padding-left: 50px;
-  justify-content: space-between; }
+  justify-content: space-around; }
   .topNavBar .account {
-    flex-basis: 250px;
-    margin-left: 50%;
     margin-top: 25px; }
   .topNavBar ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-content: flex-start;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: inherit;
     display: flex;
-    flex-basis: 400px;
+    flex-basis: 800px;
     justify-content: space-between;
     align-content: center; }
+    .topNavBar ul li:nth-child(1) {
+      color: #f56400; }
+    .topNavBar ul li:nth-child(2) {
+      color: #f56400; }
+    .topNavBar ul li:nth-child(3) {
+      color: #f56400; }
   .topNavBar li {
     flex-basis: 100%/4;
     text-align: center;
-    margin: 2px; }
+    margin: 2px;
+    padding: 8px; }
   .topNavBar .logo {
     color: #f56400; }
   .topNavBar .searchBar {
     margin-top: 35px;
-    margin-left: 10px;
-    width: 740px; }
+    margin-left: 10px; }
     .topNavBar .searchBar input {
       width: 100%;
       height: 100%; }
